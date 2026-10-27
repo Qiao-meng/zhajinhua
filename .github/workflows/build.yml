@@ -1,0 +1,26 @@
+zhajinhua/
+├── .github/
+│   └── workflows/
+│       └── build.yml
+├── app/
+│   ├── build.gradle.kts
+│   └── src/main/
+│       ├── AndroidManifest.xml
+│       └── java/com/example/zhajinhua/
+│           ├── MainActivity.kt
+│           ├── game/
+│           │   ├── Card.kt
+│           │   ├── HandEvaluator.kt
+│           │   ├── BotAI.kt
+│           │   └── GameEngine.kt
+│           └── ui/
+│               ├── GameScreen.kt
+│               ├── SetupScreen.kt
+│               └── theme/
+│                   └── Theme.kt
+├── build.gradle.kts
+├── settings.gradle.kts
+├── gradle.properties
+└── gradle/wrapper/
+    ├── gradle-wrapper.properties
+    └── gradle-wrapper.jar   （见下方说明）
